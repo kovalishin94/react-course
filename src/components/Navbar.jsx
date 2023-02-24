@@ -1,16 +1,24 @@
+import cls from './Navbar.module.css';
+
 const Navbar = () => {
-    return (<nav className='nav'>
-    <a href="#content">Profile</a>
-    <br />
-    <a href="#content">Messages</a>
-    <br />
-    <a href="#content">News</a>
-    <br />
-    <a href="#content">Music</a>
-    <br />
-    <a href="#content">Settings</a>
+  return (<nav className={cls.nav}>
+    <div className={cls.item}>
+      <a href="#content">Profile</a>
+    </div>
+    <div className={cls.item}>
+      <a href="#content">Messages</a>
+    </div>
+    <div className={cls.item}>
+      <a href="#content">News</a>
+    </div>
+    <div className={cls.item}>
+      <a href="#content">Music</a>
+    </div>
+    <div className={cls.item}>
+      <a href="#content">Settings</a>
+    </div>
   </nav>
-    )
+  )
 }
 
 export default Navbar

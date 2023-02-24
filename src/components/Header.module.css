@@ -1,0 +1,8 @@
+.header {
+    grid-column: span 2;
+    background-color: green;
+  }
+  
+  .header img {
+    width: 100px;
+  }

@@ -1,0 +1,12 @@
+.content {
+    background-color: rgb(211, 180, 140);
+  }
+
+img {
+  width: 300px;
+}
+
+.item {
+  color: azure;
+  padding-left: 1em;
+}
