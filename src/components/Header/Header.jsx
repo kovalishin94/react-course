@@ -3,8 +3,8 @@ import cls from './Header.module.css';
 const Header = () => {
     return(
     <header className={cls.header}>
-        <img src="https://avatars.mds.yandex.net/i?id=efd6ab8b3a67b0abc777cefaf348c9e0f110eaac-4055751-images-thumbs&n=13"
-            alt="" />
+        <div className={cls.title}>React SocialNetwork</div>
+        <div className={cls.logo}></div>
     </header>
     )
 }
