@@ -1,18 +1,25 @@
 .nav {
   text-align: center;
   align-self: start;
+  background-color: rgb(132, 173, 161);
 }
 
 .item {
   padding-top: 1em;
   padding-bottom: 1em;
-  border: solid black 1px;
-  border-radius: 50%;
-  background-color: aqua;
-  width: 100px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
 }
 
 .item a {
-  color: white;
-  text-decoration: none;
+  text-decoration: None;
+  color: dimgrey;
+  background-color: rgb(205, 191, 156);
+  border-radius: 40%;
+  
+}
+
+.item a:hover {
+  background-color: rgb(207, 210, 204);
 }
