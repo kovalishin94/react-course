@@ -3,5 +3,10 @@
   width: 90%;
   margin: auto;
   grid-template-rows: 300px 1fr;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 200px 1fr 1fr;
+}
+
+.app-wrapper-content {
+  background-color: rgb(211, 180, 140);
+  grid-column: span 2;
 }
