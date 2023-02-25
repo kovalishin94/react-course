@@ -1,6 +1,6 @@
 .header {
     grid-column: span 3;
-    background-color: green;
+    background-color: rgb(132, 173, 161);
   }
   
   .header img {

@@ -2,8 +2,9 @@
   display: grid;
   width: 90%;
   margin: auto;
-  grid-template-rows: 300px 1fr;
+  grid-template-rows: 150px fr;
   grid-template-columns: 200px 1fr 1fr;
+  gap: 1em;
 }
 
 .app-wrapper-content {
