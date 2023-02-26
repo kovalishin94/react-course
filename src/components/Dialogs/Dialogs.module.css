@@ -9,14 +9,9 @@
     min-height: 40vh;
 }
 
-.dialogs .item {
-    color: aqua;
-}
 
 .messages {
     padding-left: 5px;
 }
 
-.messages .message {
-    color: blue;
-}
+

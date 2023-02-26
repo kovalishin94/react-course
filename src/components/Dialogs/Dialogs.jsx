@@ -1,11 +1,11 @@
+import { NavLink } from 'react-router-dom'
 import cls from './Dialogs.module.css'
 
 const Dialogs = (props) => {
     return (
         <div className={cls.containerMess}>
             <div className={cls.dialogs}>
-                <div className={cls.item}>Dialog</div>
-                <div className={cls.item}>Dialog</div>
+                <div className={cls.item}><NavLink to='dialogs/1'>Dialog</NavLink></div>
                 <div className={cls.item}>Dialog</div>
                 <div className={cls.item}>Dialog</div>
                 <div className={cls.item}>Dialog</div>
